@@ -1,0 +1,9 @@
+spring:
+  application:
+    name: mini-kafka-platform
+
+server:
+  port: 8080
+
+mini-kafka:
+  storage-dir: ${MINI_KAFKA_STORAGE_DIR:data}
